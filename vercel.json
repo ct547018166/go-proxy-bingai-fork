@@ -1,20 +1,6 @@
 {
   "name": "go-proxy-bingai",
   "version": 2,
-  "functions": {
-    "/api/helper/index.go": {
-      "runtime": "@vercel/go@1.3.5"
-    },
-    "/api/helper/web.go": {
-      "runtime": "@vercel/go@1.3.5"
-    },
-    "/api/helper/sydney.go": {
-      "runtime": "@vercel/go@1.3.5"
-    },
-    "/api/helper/sys-config.go": {
-      "runtime": "@vercel/go@1.3.5"
-    }
-  },
   "routes": [
     {
       "src": "/sysconf",
